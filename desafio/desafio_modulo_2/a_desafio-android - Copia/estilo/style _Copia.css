@@ -1,0 +1,151 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:android;
+    src: url(../fontes/idroid.otf) format('opentype');
+
+
+}
+:root{
+  --cor0: #5460FF ;
+  --cor1: #0817FF;
+  --cor2: #0613CC;
+  --cor3: #2A3080;
+  --cor4: rgb(4, 12, 90);
+  --cor5: #03082e;
+
+  --fonte_padrao:Arial, verdana, Helvetica, sans-serif ;
+  --fonte_destaque: 'Bebas Neue', cursive; 
+  --fonte_title: 'android', cursive ;
+}
+body{
+  background-color:var(--cor0);
+  line-height: 1.5em;
+  
+}
+
+header{
+  padding: 10px 10px;
+  background-image: linear-gradient(to bottom, var(--cor0),var(--cor4));
+  margin: auto -7px;
+  color: white;
+}
+header > h1{
+  font-family:var(--fonte_padrao);
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to bottom, #3cd98300, #154c2e00);
+}
+header > p{
+  max-width: 500px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px 0px;
+  font-family:var(--fonte_padrao);
+
+}
+nav > a{
+  font-family: var(--fonte_padrao);
+  color: white;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+nav > a:hover{
+  background-color: var(--cor4);
+}
+main{
+  font-family:var(--fonte_padrao);
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5) ;
+  background-color: white;
+  min-width: 280px;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+div{
+  background-color: var(--cor4);
+  padding: 20px 0px 20px 0px;
+}
+p{
+  text-indent: 30px;  
+}
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  }
+iframe{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+main img.mas{
+  max-width: 350px;
+}
+h1, h2{
+  font-family:var(--fonte_title);
+  background-image: linear-gradient(90deg, var(--cor2), white);
+  color: var(--cor4);
+  text-indent: 10px;
+}
+section{
+  background-color: rgba(84, 95, 255, 0.5);
+  width: 790px;
+  padding: 3px;
+  margin: 2px;
+  border-radius: 7px;
+}
+h3{
+  font-family: var(--fonte_destaque);
+  background-color: var(--cor1);
+  font-weight: normal;
+  font-size: 1.5em;
+  color: white;
+  width: auto;
+  padding: 4px 0px 4px 0px ;
+  margin: -3px ;
+  text-indent: 10px;
+  border-radius: 7px 7px 0px 0px;
+}
+footer{
+  font-size: 0.8em;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:var(--cor5);
+  color: white;
+  text-align: center;
+}
+aside ul{
+  list-style: '\2714\00a0 \00a0';
+  list-style-position: inside;
+  columns: 2;
+}
+main a{
+  color:var(--cor2); 
+  text-decoration: none;
+}
+strong{
+  font-size: 1.1em;
+  text-decoration: underline;
+  color: var(--cor3);
+}
+strong:hover{
+  background-color: var(--cor3);
+  color: white;
+}
+main a{
+  text-decoration: none;
+  color: var(--cor4);
+}
+a.externo::after{
+  content: '\00a0\1F517' ;
+}
+
+main a:hover{
+  text-decoration: underline;
+  color: var(--cor2);
+  background-color: #d6d8ff;
+}

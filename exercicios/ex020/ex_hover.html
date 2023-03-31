@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    
+    <p><a href="pseudo_classes.html">00</a><a href="pseudo_elementos.html">02</a></p>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+        div:hover{
+            color: yellow;
+            background-color: black;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Houver</h1>
+    <p>Passe o mouse sobre o texto a baixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>No CSS, o Hover CSS faz parte do conjunto de palavras-chave utilizadas pelas pseudo-classes da linguagem de estilos e serve para adicionar características a um elemento quando a pessoa usuária posiciona o mouse sobre ele</p>
+    </div>
+    <pre>
+        <p>div > p {
+            display: none;
+        }
+
+Indica que o elemnto pretencente a div (nesse caso o "p") e pretencente a div e nesse caso do display none o elemento sera retirado da tela (ficara escondido)
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+
+Indica que ao passa o molse por cima do elemento ira mostra o elemento com a seguintes características a cima citada especifica para o elemento pertencente ao div
+                
+        div:hover{
+            color: yellow;
+            background-color: black;
+            width: 300px;
+        }
+Alteração na div generica
+    </p>
+    </pre>
+</body>
+</html>

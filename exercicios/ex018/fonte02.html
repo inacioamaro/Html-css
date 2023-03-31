@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family: love;
+            src: url('fonts/love larry.otf larry.ttf') format(truetype), url('fonts/love larry.ttf') format(opentype); 
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: sans-serif;
+            font-size: 2em;
+        }
+        h1{
+            font-family: 'love', serif;
+            font-size: 3em;
+        }
+        h2, h3{
+            font-family: serif;
+            font-style: italic;
+        }
+        h4{
+            font-family: 'ass', serif;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="fonte01.html"><sup>1</sup></a></p>
+    <h1>A MORTE DA ROSA
+    </h1>
+    <pre>
+    <p>    Morreu de mau cheiro.
+    Rosa igual, exata.
+    Subsistiu à sua beleza,
+    Sucumbiu à sua fragrância.
+    Não teve nome: talvez
+    lhe chamassem Rosaura,
+    Ou Rosa-fina, ou Rosa
+    do amor, ou Rosalva;
+    ou simplesmente Rosa,
+    como se chama a água.
+    Mais lhe valeria
+    ser sempre-viva, Dália,
+    pensamento com lua
+    como um ramo de acácia.
+
+    Mas ela será eterna:
+    foi rosa; e isso basta;
+
+    Deus a gurde em seu reino
+    à margem direita do alvorecer.
+
+    1945
+    </p>
+    <h4>Gabriel Garcia Marques</h4>
+    </pre>
+    <h2>Baixando fonte e instalando </h2>
+    <p>Em sua grande maioria o cliente já esta com os arquivos de sua fonte desejada ou exclusiva, mas caso ele não tenha esse arquivo podemos baixar essa fonte da internet a vários sites que permitem esse tipo ex: da fonte <br>Apos baixar esse arquivo caso venha zipado ira extrair e colar na pasta onde esta o nosso site e no arquivo html no head ira criar um seletor @font-face que ira abrir o font-family(nome que você vai dar) e o src: url('nome do arquivo') format</p>
+    <h3>Tipos de format</h3>
+    <ul>
+        <li>opentype (otf)</li>
+        <li>truetype (ttf)</li>
+        <li>embedded-opentype</li>
+        <li>truetype-att(Apple Advances Typegraphy) </li>
+        <li>svg</li>
+    </ul>
+</body>
+</html>

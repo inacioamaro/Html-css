@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação de textos</title>
+    <style>
+        mark{
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>1. Principais formatações</h1>
+    <h2>1.1. Negrito / Destaques</h2>
+    <p>Podemos usar duas formas de colocar uma palavra em negrito semântica ou não semântica</p> 
+    <p>Na forma <b>não semântica </b>usamos a tag &lt;b&gt;</p>
+    <p>Na forma <strong>semântica</strong> usamos a tag &lt;strong&gt; <br>Sendo que na tag <u>u</u> a expressão tem como finalidade de forma apenas e na tag <strong>strong</strong> dá sentido de destaque que é semântica </p>
+    <h2>1.2. Itálico / Enfase </h2>
+    <p>Podemos usar a tag <i>i</i> para colocar em <i>Itálico</i></p>
+    <p>Na forma semântica devemos usar a tag "em" <em> para gerar Enfase</em> com semântica</p>
+    <p>Devida a nova forma que utilizar o html5 é solicitado que use as tags de semântica já que as tags não semânticas são tags antigas e devem entrar em desuso em breve</p>
+    <h2>1.3. Texto marcado</h2>
+    <p>podemos criar um <mark>texto mancado</mark> usando a tag mark <br>Lembrando que com a tag mark não e possivel mudar a cor de sua marcação pois ela e não é forma e sim um significado <mark>"semantico"</mark> </p>
+    <p>Caso deseje escolher a cor do meu marcado tenho que usar <mark>CSS3.</mark>que me permite formta atraves do paramentro style <make>"background-color" </make> e seleciona a cor desejada dentro de mark </p>
+    <p>Caso se o documento tenha varias marcações e queira que todar herdem a mesma configuração não se pode fazer a configuração em apenas um paragrafo deve criar um tag style dentro dele criar um seletor para mark no cabeçario <mark>"head"</mark> com a cor desejada <br>Com isso sempre que usar a tag MARK. ela herdara a formatação desejada</p>
+    <h2>1.4. TEXTO grande e texto pequeno</h2>
+    <p>Para cria um texto grando ou pequeno usamos as tags "big" <big>para almentar o tamanha das letras</big>  e "small" <small>para diminuir o tamanha das letras</small> <br>Hoje em dia usamos a formatação em cabeçãrio que veremos em um materiol a frente</p>
+    <h2>1.5. Texto deletado</h2>
+    <p>Para informa que aquele texto <del>não esta mais em uso</del> pode ser usado a tag "del" o txto pode ser lida mas não deve ser levado em consideração!</p>
+    <h2>1.6. Texto incerido</h2>
+    <p>Para <ins>informar que um texto</ins> <u>foi incerido no documento</u> podemos usar a tag "u"  ou ins indica que o texto foi inserido para dar uma enfase e indicar que foi adicionado depois <br>Lembrando que a teg u esta defasada (<u>não semantica</u>)</p>
+    <h2>1.7. Texto sobrescrito</h2>
+    <p>O texto sobrescrito é o texto que usa por exemplo (x<sup>20</sup>+3) usa-se a tag sup</p>
+    <h2>1.8. Texto subescrito</h2>
+    <p>Caso queira subescrever algo exemplo(H<sub>2</sub>O)usa-se a tag sub</p>
+    
+</body>
+</html>

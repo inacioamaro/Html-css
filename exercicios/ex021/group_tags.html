@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        
+        }
+        nav {
+            background-color: rgb(104, 104, 104);
+            padding: 3px;
+            box-shadow: 5px 3px 1px rgba(0, 0, 0, 0.40);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(199, 199, 199);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 20px 0px 20px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>        
+            <h1>Meu site</h1>
+        <nav>
+            <a href="explicação.html"><sup>00</sup></a>
+            <a href="box-level.html"><sup>01</sup></a>
+            <a href="group_tags.html"><sup>02</sup></a>
+            <a href="#"><sup>02</sup></a>
+            <a href="#"><sup>03</sup></a>
+            <a href="#"><sup>04</sup></a>
+    </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perspiciatis saepe, consequuntur architecto eum ad debitis corrupti, mollitia doloribus impedit alias accusamus, illum deserunt? Eum tempore dolor amet eos vero?</p>
+                <aside>
+                    <p><sup>Artigo escrito por ********* </sup></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>desenvolvendo site</footer>
+</body>
+</html>
