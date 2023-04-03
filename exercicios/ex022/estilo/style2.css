@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center; 
+    margin: -7px;
+}
+
+body{
+    background-image: url(../img/pattern001.png);
+    background-size: 100px 100px;
+    /*background-repeat:repeat-y;
+    background-repeat:repeat-x;
+    background-repeat:no-repeat;
+    background-repeat:repeat;*/
+}
