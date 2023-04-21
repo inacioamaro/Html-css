@@ -4,20 +4,35 @@ body{
     font-family: 'Times New Roman', Times, serif;
 
 }
+caption{
+    font-size: 1.1 em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgrey;
+}
 table{
     width: 500px;
     border-collapse: collapse;
+    position: ;
 }
 th{
     border: 1px solid black; 
 }
 td{
     border: 1px solid black;
-    text-align: center;/* Alinhamento horizontal ''left, center, right'' */
+    text-align: left;/* Alinhamento horizontal ''left, center, right'' */
     vertical-align: top;/* Alinhamento Vertical "Top, middle, botton */
 }
+tbody > tr:nth-child(odd){
+    background-color: rgb(163, 163, 163);
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(53, 53, 53);
+}
 thead, tfoot{
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.75);
     color: white;
 }
 td.num{
