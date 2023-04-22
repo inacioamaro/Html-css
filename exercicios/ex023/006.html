@@ -11,6 +11,7 @@
             border-collapse: collapse;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
+            position: relative;
         }
         th{
             border: 1px solid black;
@@ -21,12 +22,22 @@
             font-size: 1.5;
             border: 1px solid black;
         }
+        thead > tr > th{
+            position: sticky;
+            left: 0;
+            background-color: black;
+        }
+        tbody > tr > th{
+            position: sticky;
+            left: 0;
+        }
         tr:nth-child(odd){
             background-color: rgba(38, 100, 41, 0.25);
         }
         div#container{
             overflow-x: scroll;
             top: stki;
+        
         }
     </style>
 </head>
